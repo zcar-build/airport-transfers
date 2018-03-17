@@ -9,10 +9,17 @@ wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+.quarantine
+.tmb
+.well-known
+db
+oldwebsite
+png
+sig-images
+amazon-associates-link-builder
 
 /.htaccess
 /license.txt
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
-

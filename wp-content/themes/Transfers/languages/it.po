@@ -1,0 +1,3462 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Transfers WP\n"
+"POT-Creation-Date: 2016-01-19 13:44+0100\n"
+"PO-Revision-Date: 2016-08-23 04:07+0200\n"
+"Last-Translator: ThemeEnergy <support@themeenergy.com>\n"
+"Language-Team: ThemeEnergy <support@themeenergy.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html__;esc_html_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: ../../../plugins/transfers-plugin\n"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:44
+msgid "Transfers Availability Management"
+msgstr "Gestione Disponibilità Trasferimenti"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:44
+msgid "Transfers Availability"
+msgstr "Disponibilità trasferimenti"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:115
+msgid "Availability"
+msgstr "Disponibilità"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:123
+msgid "Transfers availability management"
+msgstr "Gestione disponibilità trasferimenti"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:141
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:131
+#, php-format
+msgid ""
+"<strong>Warning:</strong> Transfers custom tables do not exist. Please "
+"navigate to <a href=\"%s\">Theme options</a> and click the <strong>Create "
+"tables</strong> button in the Database tab to create them."
+msgstr ""
+"<strong>Attenzione:</strong> La tabella personalizzata dei traferimenti non "
+"esiste. Naviga all'interno delle <a href=\"%s\">Opzioni del Tema</a> e "
+"clicca sul pulsante <strong>Crea tabella</strong> nella Tab sezione Database "
+"per crearla."
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:146
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:161
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:787
+msgid "Add Availability"
+msgstr "Aggiungi disponibilità"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:212
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:200
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:215
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:203
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:215
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:203
+msgid "Delete"
+msgstr "Cancella"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:225
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:648
+msgid "Every X minutes"
+msgstr "Ogni X minuti"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:228
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:649
+msgid "Every day"
+msgstr "Ogni giorno"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:231
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:650
+msgid "Once a week"
+msgstr "Una volta a settimana"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:234
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:651
+msgid "Once a month"
+msgstr "Una volta al mese"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:267
+#, php-format
+msgid "Every %d minutes"
+msgstr "Ogni %d minuti"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:295
+msgid ""
+"Transfers custom tables do not exist. Please navigate to Theme options and "
+"click the Create tables button in the Database tab to create them."
+msgstr ""
+"La tabella personalizzata dei trasferimenti non esiste. Per favore naviga "
+"all'interno delle Opzioni del Tema e clicca sul bottone Crea Tabella nella "
+"Tab Database per crearla"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:312
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:271
+msgid "Id"
+msgstr "id"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:313
+#: ../comments.php:75
+msgid "Name"
+msgstr "Nome"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:314
+msgid "Start"
+msgstr "Inizio"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:315
+msgid "End"
+msgstr "Fine"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:316
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:273
+#: ../page-booking-form.php:490 ../page-booking-form.php:518
+#: ../page-booking-form.php:552 ../page-booking-form.php:572
+msgid "From"
+msgstr "Da"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:317
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:274
+#: ../page-booking-form.php:494 ../page-booking-form.php:522
+#: ../page-booking-form.php:554 ../page-booking-form.php:574
+msgid "To"
+msgstr "A"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:318
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:275
+msgid "Transport"
+msgstr "Trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:319
+msgid "Available"
+msgstr "Disponibile"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:320
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:277
+msgid "Time"
+msgstr "Ora"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:321
+msgid "Prices (private/share)"
+msgstr "Prezzo (privato/condiviso)"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:322
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:288
+msgid "Action"
+msgstr "Azione"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:422
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:387
+msgid "Successfully deleted entry!"
+msgstr "Cancellazione avvenuta con successo!"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:469
+msgid "Successfully inserted new availability entry!"
+msgstr "Inserimento di nuova disponibilità avvenuta con successo!"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:476
+msgid "Successfully updated availability entry!"
+msgstr "Aggiornamento disponibilità avvenuta con successo!"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:603
+msgid "Update Availability Entry"
+msgstr "Aggiorna Disponibilità"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:605
+msgid "Add Availability Entry"
+msgstr "Aggiungi Disponibilità"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:614
+msgid "Season name"
+msgstr "Nome Stagione"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:619
+msgid "Season start"
+msgstr "Inizio Stagione"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:632
+msgid "Season end"
+msgstr "Fine Stagione"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:645
+msgid "Entry type"
+msgstr "Tipologia"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:657
+msgid "Every how many minutes?"
+msgstr "Ogni quanti minuti?"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:680
+msgid "Time slot"
+msgstr "Lasso di tempo"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:700
+msgid "Day of week"
+msgstr "Giorno della settimana"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:712
+msgid "Day of month"
+msgstr "Giorno del mese"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:728
+msgid "Select destination from"
+msgstr "Seleziona destinazione da"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:733
+msgid "Select destination to"
+msgstr "Seleziona destinazione a"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:755
+msgid "Select transport type"
+msgstr "Seleziona tipo di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:760
+msgid "Available vehicles (count)"
+msgstr "Disponibilità veicoli (numero)"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:765
+msgid "Price (private)"
+msgstr "Prezzo (privato)"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:770
+msgid "Price (share)"
+msgstr "Prezzo (condiviso)"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:775
+msgid "Duration (minutes)"
+msgstr "Durata (minuti)"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:781
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:728
+msgid "Cancel"
+msgstr "Cancella"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_availability_management_admin.php:785
+msgid "Update Availability"
+msgstr "Aggiorna disponibilità"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:44
+msgid "Transfers Bookings Management"
+msgstr "Gestione prenotazioni"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:44
+msgid "Transfers Bookings"
+msgstr "Prenotazioni"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:105
+msgid "Bookings"
+msgstr "Prenotazioni"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:113
+msgid "Transfers bookings management"
+msgstr "Gestione prenotazioni"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:136
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:149
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:734
+msgid "Add Booking"
+msgstr "Aggiungi prenotazione"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:246
+msgid "yes"
+msgstr "Si"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:246
+msgid "no"
+msgstr "no"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:259
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:284
+msgid "Woo Order"
+msgstr "Woo Ordini"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:272
+msgid "Customer Name"
+msgstr "Nome cliente"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:276
+#: ../archive.php:63 ../home.php:96 ../index.php:62
+#: ../page-booking-form.php:486 ../page-booking-form.php:514
+#: ../page-booking-form.php:550 ../page-booking-form.php:570 ../search.php:70
+#: ../single.php:45
+msgid "Date"
+msgstr "Data"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:278
+msgid "Total Price"
+msgstr "Prezzo totale"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:279
+msgid "Is Private?"
+msgstr "Privato?"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:285
+msgid "Woo Status"
+msgstr "Woo Stat"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:434
+msgid "Successfully inserted new booking entry!"
+msgstr "Prenotazione inserita con successo!"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:451
+msgid "Successfully updated booking entry!"
+msgstr "Aggiornamento prenotazione avvenuta con successo!"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:572
+msgid "Update Booking Entry"
+msgstr "Aggiorna prenotazione"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:574
+msgid "Add Booking Entry"
+msgstr "Aggiungi prenotazione"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:592
+msgid "Availability entry"
+msgstr "Disponibilità"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:598
+#: ../page-booking-form.php:373 ../page-user-account.php:139
+#: ../page-user-account.php:218
+msgid "First name"
+msgstr "Nome"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:603
+#: ../page-booking-form.php:377 ../page-user-account.php:143
+#: ../page-user-account.php:222
+msgid "Last name"
+msgstr "Cognome"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:608
+#: ../comments.php:86 ../page-booking-form.php:461 ../page-user-account.php:133
+msgid "Email"
+msgstr "Email"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:613
+msgid "Phone"
+msgstr "Telefono"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:618
+msgid "Address"
+msgstr "Indirizzo"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:623
+msgid "Town"
+msgstr "Città"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:628
+msgid "Zip"
+msgstr "Cap"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:633
+#: ../page-booking-form.php:407 ../page-booking-form.php:477
+#: ../page-user-account.php:258
+msgid "State"
+msgstr "Stato"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:638
+#: ../page-booking-form.php:413 ../page-booking-form.php:481
+#: ../page-user-account.php:262
+msgid "Country"
+msgstr "Paese"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:643
+msgid "Booking date"
+msgstr "Data prenotazione"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:656
+msgid "People count"
+msgstr "N° persone"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:661
+msgid "Is private"
+msgstr "E' privato"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:676
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:111
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:113
+#: ../page-booking-form.php:237
+msgid "Extra items"
+msgstr "Elementi Extra"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:681
+msgid "Item"
+msgstr "Elemento"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:682
+#: ../page-booking-form.php:254 ../page-booking-form.php:311
+msgid "Quantity"
+msgstr "Quantità"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:683
+#: ../page-booking-form.php:253 ../page-booking-form.php:310
+msgid "Price"
+msgstr "Prezzo"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:709
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:721
+msgid "Total price"
+msgstr "Prezzo totale"
+
+#: ../../../plugins/transfers-plugin/includes/admin/transfers_bookings_management_admin.php:732
+msgid "Update Booking"
+msgstr "Aggiorna prenotazione"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_ajax.php:127
+msgid "New transfer booking"
+msgstr "Nuova prenotazione"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_ajax.php:144
+#, php-format
+msgid ""
+"New transfer booking: \n"
+"\n"
+"First name: %s \n"
+"\n"
+"Last name: %s \n"
+"\n"
+"Email: %s \n"
+"\n"
+"Phone: %s \n"
+"\n"
+"Address: %s \n"
+"\n"
+"Town: %s \n"
+"\n"
+"Zip: %s \n"
+"\n"
+"State: %s \n"
+"\n"
+"Country: %s \n"
+"\n"
+"People: %d \n"
+"\n"
+"Departure Date: %s \n"
+"\n"
+"Departure Private? %s \n"
+"\n"
+"Departure From: %s \n"
+"\n"
+"Departure To: %s \n"
+"\n"
+"Departure Transport type: %s \n"
+"\n"
+"Departure Extra items: %s \n"
+"\n"
+"Return Date: %s \n"
+"\n"
+"Return Private? %s \n"
+"\n"
+"Return From: %s\n"
+"\n"
+"Return To: %s \n"
+"\n"
+"Return Transport Type: %s \n"
+"\n"
+"Return Extra items: %s \n"
+"\n"
+"Total Price: %s"
+msgstr ""
+"Nuova prenotazione: \n"
+"\n"
+"Nome: %s \n"
+"\n"
+"Cognome: %s \n"
+"\n"
+"Email: %s \n"
+"\n"
+"Telefono: %s \n"
+"\n"
+"Indirizzo: %s \n"
+"\n"
+"Città: %s \n"
+"\n"
+"CAP: %s \n"
+"\n"
+"Stato: %s \n"
+"\n"
+"Paese: %s \n"
+"\n"
+"Persone: %d \n"
+"\n"
+"Data partenza: %s \n"
+"\n"
+"Privato? %s \n"
+"\n"
+"Partenza da: %s \n"
+"\n"
+"Partenza a: %s \n"
+"\n"
+"Tipo di trasporto per la partenza: %s \n"
+"\n"
+"Elementi extra per la partenza: %s \n"
+"\n"
+"Data ritorno: %s \n"
+"\n"
+"Ritorno privato? %s \n"
+"\n"
+"Ritorno da: %s\n"
+"\n"
+"Ritorno a: %s \n"
+"\n"
+"Tipo di trasporto per il ritorno: %s \n"
+"\n"
+"Elementi Extra per il ritorno: %s \n"
+"\n"
+"Prezzo totale: %s"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_ajax.php:145
+#: ../../../plugins/transfers-plugin/includes/plugin_ajax.php:148
+#: ../page-booking-form.php:177
+msgid "Yes"
+msgstr "Si"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_ajax.php:145
+#: ../../../plugins/transfers-plugin/includes/plugin_ajax.php:148
+#: ../page-booking-form.php:178
+msgid "No"
+msgstr "No"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_ajax.php:147
+#, php-format
+msgid ""
+"New transfer booking: \n"
+"\n"
+"First name: %s \n"
+"\n"
+"Last name: %s \n"
+"\n"
+"Email: %s \n"
+"\n"
+"Phone: %s \n"
+"\n"
+"Address: %s \n"
+"\n"
+"Town: %s \n"
+"\n"
+"Zip: %s \n"
+"\n"
+"State: %s \n"
+"\n"
+"Country: %s \n"
+"\n"
+"People: %d \n"
+"\n"
+"Departure Date: %s \n"
+"\n"
+"Departure Private? %s \n"
+"\n"
+"Departure From: %s \n"
+"\n"
+"Departure To: %s \n"
+"\n"
+"Departure Transport type: %s \n"
+"\n"
+"Departure Extra items: %s \n"
+"\n"
+"Total Price: %s"
+msgstr ""
+"Nuova prenotazione: \n"
+"\n"
+"Nome: %s \n"
+"\n"
+"Cognome: %s \n"
+"\n"
+"Email: %s \n"
+"\n"
+"Telefono: %s \n"
+"\n"
+"Indirizzo: %s \n"
+"\n"
+"Città: %s \n"
+"\n"
+"CAP: %s \n"
+"\n"
+"Stato: %s \n"
+"\n"
+"Paese: %s \n"
+"\n"
+"Persone: %d \n"
+"\n"
+"Data partenza: %s \n"
+"\n"
+"Partenza privata? %s \n"
+"\n"
+"Partenza da: %s \n"
+"\n"
+"Partenza a: %s \n"
+"\n"
+"Tipo di trasporto epr la partenza: %s \n"
+"\n"
+"Elementi extra per la partenza: %s \n"
+"\n"
+"Prezzo totale: %s"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:68
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:101
+msgid "Field id"
+msgstr "Campo id"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:72
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:105
+msgid "Field label"
+msgstr "Campo etichetta"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:76
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:109
+msgid "Field type"
+msgstr "Campo tipo"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:86
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:117
+msgid "Is hidden?"
+msgstr "E' nascosto?"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:102
+msgid "Id will be created when 'Save Options' is clicked."
+msgstr "l' id sarà creato quando 'salva opzioni' viene cliccato"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_custom.php:125
+msgid "Add field"
+msgstr "Aggiungi campo"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_default_fields.php:23
+msgid "Text box"
+msgstr "Campo testo"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_default_fields.php:24
+msgid "Text area"
+msgstr "Campo area di testo"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_of_default_fields.php:25
+msgid "Image selector"
+msgstr "Selettore immagine"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:22
+msgid "Monday"
+msgstr "Luned'"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:23
+msgid "Tuesday"
+msgstr "Martedì"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:24
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:25
+msgid "Thursday"
+msgstr "Giovedì"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:26
+msgid "Friday"
+msgstr "Venerdì"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:27
+msgid "Saturday"
+msgstr "Sabato"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:28
+msgid "Sunday"
+msgstr "Domenica"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:141
+msgid "Select pickup location"
+msgstr "Seleziona luogo di  inizio corsa"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_utils.php:141
+msgid "Select drop-off location"
+msgstr "Seleziona luogo di destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:341
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:431
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:500
+#, php-format
+msgid "Transfer from %s to %s by %s (%s) <br />on %s at %s<br />People: %d"
+msgstr ""
+"Trasferimento da %s a %s attraverso  %s (%s) <br />au %s a  %s<br />Persone: "
+"%d"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:341
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:343
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:431
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:433
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:500
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:502
+#: ../includes/parts/transfer-item.php:58 ../single-destination.php:84
+msgid "Private"
+msgstr "Privato"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:341
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:343
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:431
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:433
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:500
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:502
+#: ../includes/parts/transfer-item.php:58 ../single-destination.php:85
+msgid "Shared"
+msgstr "Condiviso"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:343
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:433
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:502
+#, php-format
+msgid ""
+"Transfer from %s to %s by %s (%s) <br />on %s at %s<br />People: %d<br /"
+">Extras: %s"
+msgstr ""
+"Trasferimento da %s a %s attraverso %s (%s) <br />su  %s a %s<br />Persone: "
+"%d<br />Extra: %s"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:680
+msgid "Transfers Product"
+msgstr "Prodotto (trasferimento)"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:681
+msgid "This is a variable product used for transfers processed via WooCommerce"
+msgstr ""
+"Questa è una variabile di prodotto usato per i trasferimenti processato via "
+"WooCommerce"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:735
+#, php-format
+msgid "Transfer from %s to %s by %s"
+msgstr "Trasferimento da %s a %s attraverso %s"
+
+#: ../../../plugins/transfers-plugin/includes/plugin_woocommerce.php:736
+#, php-format
+msgid ""
+"This is a product variation used for the transfers processed via WooCommerce "
+"for transfer from %s to %s by %s"
+msgstr ""
+"Questa è una variabile di prodotto processata via WooCommerce per "
+"trasferimento da %s a %s attraverso %s"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:77
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:90
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:58
+msgid "Extra information"
+msgstr "Informazioni extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:115
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:117
+#: ../options.php:407 ../single-destination.php:83
+msgid "Destinations"
+msgstr "Destinazioni"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:116
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:129
+msgid "Destination"
+msgstr "Destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:118
+msgid "All Destinations"
+msgstr "Tutte le destinazioni"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:119
+msgid "View Destination"
+msgstr "Visualizza Destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:120
+msgid "Add New Destination"
+msgstr "Aggiungi destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:121
+msgid "New Destination"
+msgstr "Nuova destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:122
+msgid "Edit Destination"
+msgstr "Modifica destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:123
+msgid "Update Destination"
+msgstr "Aggiorna destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:124
+msgid "Search Destinations"
+msgstr "Cerca destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:125
+msgid "No Destinations found"
+msgstr "Nessuna destinazione trovata"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:126
+msgid "No Destinations found in Trash"
+msgstr "Nessuna destinazione trovata nel cestino"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/destinations.php:130
+msgid "Destination information pages"
+msgstr "Pagina di informazione Destinazione"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:49
+msgid "Shared price per item?"
+msgstr "Prezzo condiviso per oggetto?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:50
+msgid ""
+"What is the individual price of this extra item when transfer is shared?"
+msgstr ""
+"Qual'è il prezzo individuale di questo oggetto extra quando il trasferimento "
+"è condiviso?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:56
+msgid "Private price per item?"
+msgstr "Prezzo privato per oggetto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:57
+msgid ""
+"What is the individual price of this extra item when transfer is private?"
+msgstr ""
+"Qual'è il prezzo individuale di questo oggetto quando il trasferimento è "
+"privato?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:63
+msgid "Max allowed items per shared transfer per person?"
+msgstr "Massimo oggetti permessi a persona per trasferimento condiviso?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:64
+msgid ""
+"How many pieces of the extra item are allowed per shared transfer per person?"
+msgstr ""
+"Quanle quantità di questo oggetto è permessa per ogni persona in un "
+"trasferimento condiviso?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:72
+msgid "Max allowed items per private transfer?"
+msgstr "Massimo oggetti permessi in viaggio privato?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:73
+msgid "How many pieces of the extra item are allowed per private transfer?"
+msgstr ""
+"Quanti pezzi di questo oggetto sono permessi per un trasferimento privato?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:81
+msgid "Supported transport types"
+msgstr "Tipo di trasporto supportato"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:112
+msgid "Extra item"
+msgstr "Oggetto extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:114
+msgid "All Extra items"
+msgstr "Tuggli gli extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:115
+msgid "View Extra item"
+msgstr "Visualizza extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:116
+msgid "Add New Extra item"
+msgstr "Aggiungi nuovo Extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:117
+msgid "New Extra item"
+msgstr "Nuovo Extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:118
+msgid "Edit Extra item"
+msgstr "Modifica Extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:119
+msgid "Update Extra item"
+msgstr "Aggiorna Extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:120
+msgid "Search Extra items"
+msgstr "Cerca Extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:121
+msgid "No Extra items found"
+msgstr "Nessun Extra TRovato"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:122
+msgid "No Extra items found in Trash"
+msgstr "Nessun Extra trovato nel cestino"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:125
+msgid "extra item"
+msgstr "extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/extra_items.php:126
+msgid "Extra item information pages"
+msgstr "Pagina di informazione dell'oggetto Extra"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:50
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:64
+#: ../archive.php:65 ../home.php:98
+#: ../includes/plugins/widgets/widget-featured-posts.php:151 ../index.php:64
+#: ../search.php:72 ../single.php:47
+msgid "Categories"
+msgstr "Categorie"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:51
+msgid "Category"
+msgstr "Categoria"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:52
+msgid "Search categories"
+msgstr "Cerca categoria"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:53
+msgid "All categories"
+msgstr "Tutte le categorie"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:56
+msgid "Edit Category"
+msgstr "Modifica categoria"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:57
+msgid "Update Category"
+msgstr "Aggiorna categoria"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:58
+msgid "Add New Category"
+msgstr "Aggiungi categoria"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:59
+msgid "New Category Name"
+msgstr "Nuovo nome di categoria"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:60
+msgid "Separate categories with commas"
+msgstr "Separa le categoria con virgola"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:61
+msgid "Add or remove categories"
+msgstr "Aggiungi o rimuovi categoria"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:62
+msgid "Choose from the most used categories"
+msgstr "Scegli tra le categorie più usate"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:63
+msgid "No categories found."
+msgstr "Nessuna categoria trovata"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:85
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:87
+#: ../options.php:396
+msgid "Faqs"
+msgstr "Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:86
+msgid "Faq"
+msgstr "Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:88
+msgid "All Faqs"
+msgstr "Tutte le Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:89
+msgid "View Faq"
+msgstr "Visualizza Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:90
+msgid "Add New Faq"
+msgstr "Aggiungi Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:91
+msgid "New Faq"
+msgstr "Nuova Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:92
+msgid "Edit Faq"
+msgstr "Modifica Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:93
+msgid "Update Faq"
+msgstr "Aggiorna Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:94
+msgid "Search Faqs"
+msgstr "Cerca Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:95
+msgid "No Faqs found"
+msgstr "Nessuna Faq trovata"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:96
+msgid "No Faqs found in Trash"
+msgstr "Nessuna Faq trovata nel cestino"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:99
+msgid "faq"
+msgstr "faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/faqs.php:100
+msgid "Faq information pages"
+msgstr "Pagina delle Faq"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:49
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:51
+#: ../options.php:376
+msgid "Services"
+msgstr "Servizi"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:50
+msgid "Service"
+msgstr "Servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:52
+msgid "All Services"
+msgstr "Tutti i servizi"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:53
+msgid "View Service"
+msgstr "Visualizza servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:54
+msgid "Add New Service"
+msgstr "Aggiungi servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:55
+msgid "New Service"
+msgstr "Nuovo servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:56
+msgid "Edit Service"
+msgstr "Modifica servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:57
+msgid "Update Service"
+msgstr "Aggiorna servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:58
+msgid "Search Services"
+msgstr "Cerca servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:59
+msgid "No Services found"
+msgstr "Nessun servizio trovato"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:60
+msgid "No Services found in Trash"
+msgstr "Nessun servizio trovato nel cestino"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:63
+msgid "service"
+msgstr "servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/services.php:64
+msgid "Service information pages"
+msgstr "Pgina informazione servizio"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:21
+msgid "Max people per vehicle?"
+msgstr "Quante persone per veicolo?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:22
+msgid "How many people are allowed in the vehicle?"
+msgstr "quante persone sono ammesse nel veicolo?"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:75
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:77
+msgid "Transport types"
+msgstr "Tipi di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:76
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:89
+#: ../page-booking-form.php:498 ../page-booking-form.php:526
+msgid "Transport type"
+msgstr "Tipo di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:78
+msgid "All Transport types"
+msgstr "Tutti i tipi di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:79
+msgid "View Transport type"
+msgstr "Visualizza tipi di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:80
+msgid "Add New Transport type"
+msgstr "Aggiungi nuovo tipo di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:81
+msgid "New Transport type"
+msgstr "Nuovo tipo di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:82
+msgid "Edit Transport type"
+msgstr "Modifica tipo di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:83
+msgid "Update Transport type"
+msgstr "Aggiorna tipo di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:84
+msgid "Search Transport types"
+msgstr "Cerca tipo di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:85
+msgid "No Transport types found"
+msgstr "Nessun tipo di trasporto trovato"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:86
+msgid "No Transport types found in Trash"
+msgstr "Nessun tipo di trasporto trovato nel cestino"
+
+#: ../../../plugins/transfers-plugin/includes/post_types/transport_types.php:90
+msgid "Transport type information pages"
+msgstr "Pagina di informazioni del tipo di trasporto"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:46
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:52
+msgid "Transfers: Advanced Search Widget"
+msgstr "Trasporti: Ricerca avanzata trasporti"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:141
+msgid "Departure date and time"
+msgstr "Partenza data e ora"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:151
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:175
+msgid "Pick up location"
+msgstr "Luogo di prelievo"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:157
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:179
+msgid "Drop off location"
+msgstr "Luogo di scarico"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:165
+msgid "Return date and time"
+msgstr "Ritorno data e ora"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:186
+msgid "How many people <small>(including children)</small>?"
+msgstr "Quante persone<small>(inclusi bambini)</small>?"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:192
+#: ../page-booking-form.php:568
+msgid "Return"
+msgstr "Ritorno"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:196
+msgid "One way"
+msgstr "Solo andata"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:200
+msgid "Find a transfer"
+msgstr "Trova trasferimento"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:248
+#: ../options.php:56
+msgid "Select page"
+msgstr "Seleziona pagina"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:262
+#: ../includes/plugins/widgets/widget-call-to-action.php:138
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:136
+msgid "Reverse color scheme?"
+msgstr "Inversione schema colori"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-advanced-search.php:267
+msgid "Advanced search results page"
+msgstr "Pagina di risultati di ricerca avanzata"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:27
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:33
+msgid "Transfers: Featured Services"
+msgstr "Servizi di trasferimento  in vetrina"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:143
+msgid "How many services do you want to display?"
+msgstr "Quanti servizi vuoi visualizzare?"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:152
+msgid "What do you want to sort the services by?"
+msgstr "Vuoi ordinare i servizi per?"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:154
+#: ../includes/plugins/widgets/widget-featured-posts.php:180
+msgid "Post Title"
+msgstr "Titolo"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:155
+#: ../includes/plugins/widgets/widget-featured-posts.php:181
+msgid "Post ID"
+msgstr "ID"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:156
+#: ../includes/plugins/widgets/widget-featured-posts.php:182 ../options.php:33
+msgid "Random"
+msgstr "Casuale"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:157
+#: ../includes/plugins/widgets/widget-featured-posts.php:183
+msgid "Publish Date"
+msgstr "Data pubblicazione"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:158
+#: ../includes/plugins/widgets/widget-featured-posts.php:184
+msgid "Comment Count"
+msgstr "Conteggio commenti"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:163
+msgid "Sort services in descending order?"
+msgstr "Ordina secondo Ordinae discendente?"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:168
+#: ../includes/plugins/widgets/widget-featured-posts.php:194
+#: ../includes/plugins/widgets/widget-iconic-features.php:176
+msgid "Display mode?"
+msgstr "Modo di visualizzazione?"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:170
+#: ../includes/plugins/widgets/widget-featured-posts.php:196
+#: ../includes/plugins/widgets/widget-iconic-features.php:178
+msgid "Small (usually sidebar)"
+msgstr "Piccolo (consigliato per sidebar)"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:171
+#: ../includes/plugins/widgets/widget-featured-posts.php:197
+#: ../includes/plugins/widgets/widget-iconic-features.php:179
+msgid "Card (usually in grid view)"
+msgstr "Card (normalmente in vista  griglia)"
+
+#: ../../../plugins/transfers-plugin/includes/widgets/widget-featured-services.php:176
+msgid "How many services do you want to display per row?"
+msgstr "Quanti servizi vuoi visualizzare per riga?"
+
+#: ../404.php:33
+msgid "Error 404"
+msgstr "Errore 404"
+
+#: ../404.php:47
+msgid "404 Page not found"
+msgstr "404 Pagina non trovata"
+
+#: ../404.php:48
+msgid ""
+"The page you have requested could not be found or was removed from our "
+"database."
+msgstr ""
+"La pagina che hai richiesto non è stata trovata o è stata rimossa dal nostro "
+"database"
+
+#: ../404.php:49
+#, php-format
+msgid ""
+"If you believe that this is an error, please kindly <a href=\"%s\">contact "
+"us</a>. Thank you!"
+msgstr ""
+"Se credi sia un errore, gentilmente prova a <a href=\"%s\">contattarci</a>. "
+"Grazie!"
+
+#: ../404.php:50
+#, php-format
+msgid "You can go <a href=\"%s\">back home</a> or try using the search."
+msgstr ""
+"Puoi tornare alla <a href=\"%s\">home</a> o provare ad usare la ricerca "
+"interna al sito."
+
+#: ../archive.php:64 ../home.php:97 ../index.php:63 ../search.php:71
+#: ../single.php:46
+msgid "By "
+msgstr "Da"
+
+#: ../archive.php:69 ../comments.php:14 ../home.php:102 ../index.php:68
+#: ../search.php:76 ../single.php:51
+msgid "No comments"
+msgstr "Nessun commento"
+
+#: ../archive.php:69 ../home.php:102 ../index.php:68 ../search.php:76
+#: ../single.php:51
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#: ../archive.php:69 ../home.php:102 ../index.php:68 ../search.php:76
+#: ../single.php:51
+msgid "% Comments"
+msgstr "% Commenti"
+
+#: ../archive.php:74 ../home.php:107 ../index.php:73 ../search.php:81
+msgid "Read More..."
+msgstr "Leggi tutto..."
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Questo articolo è protetto da password. Inserisci la password per "
+"visualizzarlo."
+
+#: ../comments.php:14
+msgid "One comment"
+msgstr "Un commento"
+
+#: ../comments.php:14
+#, php-format
+msgid "% comments"
+msgstr "% commenti"
+
+#: ../comments.php:20
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: ../comments.php:21
+msgid "&larr; Older Comments"
+msgstr "&larr; Vecchi Commenti"
+
+#: ../comments.php:22
+msgid "Newer Comments &rarr;"
+msgstr "Nuovi Commenti &rarr;"
+
+#: ../comments.php:41
+#, php-format
+msgid ""
+"You must be <a href=\"%s/wp-login.php?redirect_to=%s\">logged in</a> to post "
+"a comment."
+msgstr ""
+"Devi essere <a href=\"%s/wp-login.php?redirect_to=%s\">loggato</a> per "
+"inserire un commento."
+
+#: ../comments.php:47
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Loggato come <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: ../comments.php:47
+#, php-format
+msgid "<a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr ""
+"<a href=\"%s\" title=\"Sloggati da questo account\">Log out &raquo;</a>"
+
+#: ../comments.php:51
+msgid ""
+"<strong>Note:</strong> Comments on the web site reflect the views of their "
+"authors, and not necessarily the views of the transfers internet portal. "
+"Requested to refrain from insults, swearing and vulgar expression. We "
+"reserve the right to delete any comment without notice explanations."
+msgstr ""
+"<strong>Note:</strong>I commenti all'interno del sito rispecchiano il punto "
+"di vista dell'autore, non il punto di vista del sito web e dei loro "
+"amministratori. Si richiede di astenersi da insulti, parolacce e espressioni "
+"volgari. Ci riserviamo il diritto di eliminare qualsiasi commento senza "
+"spiegazioni preventive."
+
+#: ../comments.php:52
+msgid ""
+"Your email address will not be published. Required fields are signed with "
+"<span class=\"req\">*</span>"
+msgstr ""
+"La tua email non sarà pubblicata. I campi richiesti sono contrassegnati da "
+"<span class=\"req\">*</span>"
+
+#: ../comments.php:61
+msgid "Your comment"
+msgstr "Il tuo commento"
+
+#: ../comments.php:98 ../page-user-account.php:149
+msgid "Website"
+msgstr "Sito web"
+
+#: ../footer.php:33 ../header.php:85
+msgid "Home"
+msgstr "Home"
+
+#: ../footer.php:34 ../header.php:86
+msgid "Configure"
+msgstr "Configura"
+
+#: ../functions.php:160 ../includes/plugins/class-tgm-plugin-activation.php:226
+msgid "Install Required Plugins"
+msgstr "Plugin richiesti"
+
+#: ../functions.php:161 ../includes/plugins/class-tgm-plugin-activation.php:227
+msgid "Install Plugins"
+msgstr "Installa plugin"
+
+#: ../functions.php:162 ../includes/plugins/class-tgm-plugin-activation.php:228
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installazione plugin: %s"
+
+#: ../functions.php:163
+msgid "Something went wrong with the plugin API."
+msgstr "Qualcosa è andato storto con i plugin API"
+
+#: ../functions.php:174 ../includes/plugins/class-tgm-plugin-activation.php:240
+msgid "Return to Required Plugins Installer"
+msgstr "Ritorna a Plugin richiesti"
+
+#: ../functions.php:175 ../includes/plugins/class-tgm-plugin-activation.php:242
+#: ../includes/plugins/class-tgm-plugin-activation.php:2107
+msgid "Plugin activated successfully."
+msgstr "Plugin attivati con successo"
+
+#: ../functions.php:176
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tutti i plugin sono stati installati e attivati con successo. %s"
+
+#: ../home.php:17
+msgid "Blog"
+msgstr "Blog"
+
+#: ../includes/framework/includes/class-options-framework-admin.php:91
+#: ../includes/framework/includes/class-options-framework-admin.php:92
+msgid "Theme Options"
+msgstr "Opzioni del tema"
+
+#: ../includes/framework/includes/class-options-framework-admin.php:203
+msgid "Save Options"
+msgstr "Salva opzioni"
+
+#: ../includes/framework/includes/class-options-framework-admin.php:204
+msgid "Restore Defaults"
+msgstr "Ripristina valori di default"
+
+#: ../includes/framework/includes/class-options-framework-admin.php:204
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Clicca OK per resettare. Ogni settaggio del tema verrà persuto!"
+
+#: ../includes/framework/includes/class-options-framework-admin.php:235
+msgid "Default options restored."
+msgstr "Opzioni di default ripristinate."
+
+#: ../includes/framework/includes/class-options-framework-admin.php:290
+msgid "Options saved."
+msgstr "Opzioni salvate."
+
+#: ../includes/framework/includes/class-options-media-uploader.php:62
+msgid "No file chosen"
+msgstr "Nessun file scelto"
+
+#: ../includes/framework/includes/class-options-media-uploader.php:65
+#: ../includes/framework/includes/class-options-media-uploader.php:118
+msgid "Upload"
+msgstr "Carica"
+
+#: ../includes/framework/includes/class-options-media-uploader.php:67
+#: ../includes/framework/includes/class-options-media-uploader.php:119
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: ../includes/framework/includes/class-options-media-uploader.php:70
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Aggiorna la versione di Wordpress per un supporto completo dei media."
+
+#: ../includes/framework/includes/class-options-media-uploader.php:94
+msgid "View File"
+msgstr "Visualizza file"
+
+#: ../includes/framework/includes/class-options-sanitization.php:316
+msgid "No Repeat"
+msgstr "Non ripetere"
+
+#: ../includes/framework/includes/class-options-sanitization.php:317
+msgid "Repeat Horizontally"
+msgstr "Ripeti orizzontalmente"
+
+#: ../includes/framework/includes/class-options-sanitization.php:318
+msgid "Repeat Vertically"
+msgstr "Ripeti verticalmente"
+
+#: ../includes/framework/includes/class-options-sanitization.php:319
+msgid "Repeat All"
+msgstr "Ripeti tutto"
+
+#: ../includes/framework/includes/class-options-sanitization.php:331
+msgid "Top Left"
+msgstr "Alto a sinistra"
+
+#: ../includes/framework/includes/class-options-sanitization.php:332
+msgid "Top Center"
+msgstr "Alto Centrale"
+
+#: ../includes/framework/includes/class-options-sanitization.php:333
+msgid "Top Right"
+msgstr "Alto destra"
+
+#: ../includes/framework/includes/class-options-sanitization.php:334
+msgid "Middle Left"
+msgstr "Centro sinistra"
+
+#: ../includes/framework/includes/class-options-sanitization.php:335
+msgid "Middle Center"
+msgstr "Centrale al centro"
+
+#: ../includes/framework/includes/class-options-sanitization.php:336
+msgid "Middle Right"
+msgstr "Centro destra"
+
+#: ../includes/framework/includes/class-options-sanitization.php:337
+msgid "Bottom Left"
+msgstr "Basso sinistra"
+
+#: ../includes/framework/includes/class-options-sanitization.php:338
+msgid "Bottom Center"
+msgstr "Basso centro"
+
+#: ../includes/framework/includes/class-options-sanitization.php:339
+msgid "Bottom Right"
+msgstr "Basso destra"
+
+#: ../includes/framework/includes/class-options-sanitization.php:351
+msgid "Scroll Normally"
+msgstr "Scorri normalmente"
+
+#: ../includes/framework/includes/class-options-sanitization.php:352
+msgid "Fixed in Place"
+msgstr "Fisso nel posto"
+
+#: ../includes/framework/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr "Normale"
+
+#: ../includes/framework/includes/class-options-sanitization.php:425
+msgid "Italic"
+msgstr "Italic"
+
+#: ../includes/framework/includes/class-options-sanitization.php:426
+msgid "Bold"
+msgstr "Grassetto"
+
+#: ../includes/framework/includes/class-options-sanitization.php:427
+msgid "Bold Italic"
+msgstr "Grassetto Italic"
+
+#: ../includes/parts/destination-item.php:39
+msgid "See all"
+msgstr "Vedi tutto"
+
+#: ../includes/parts/post-item.php:26
+msgid "More info"
+msgstr "Più info"
+
+#: ../includes/parts/service-item.php:34 ../includes/parts/transfer-item.php:58
+msgid "Read more"
+msgstr "Leggi tutto"
+
+#: ../includes/parts/transfer-item.php:62
+#, php-format
+msgid "Max <strong>%d people</strong> <br />per vehicle"
+msgstr "Max <strong>%d persone</strong> <br />per veicolo"
+
+#: ../includes/parts/transfer-item.php:66
+#, php-format
+msgid "Departure date<br /><strong>%s</strong>"
+msgstr "Data di partenza<br /><strong>%s</strong>"
+
+#: ../includes/parts/transfer-item.php:70
+#, php-format
+msgid "Departure time<br /><strong>%s</strong>"
+msgstr "Orario di partenza<br /><strong>%s</strong>"
+
+#: ../includes/parts/transfer-item.php:85
+msgid "per vehicle"
+msgstr "per veicolo"
+
+#: ../includes/parts/transfer-item.php:85
+msgid "per passenger"
+msgstr "per passeggero"
+
+#: ../includes/parts/transfer-item.php:86
+msgid "select"
+msgstr "seleziona"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:229
+msgid "Something went wrong."
+msgstr "qualcosa è andato storto."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:241
+msgid "Return to the dashboard"
+msgstr "Ritorna alla dashboard"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:243
+msgid "The following plugin was activated successfully:"
+msgstr "Il seguente plugin è stato attivato con successo:"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:244
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tutti i plugin installati e attivati con successo. %1$s"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:245
+msgid "Dismiss this notice"
+msgstr "Elimina questa nota"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:595
+#: ../includes/plugins/class-tgm-plugin-activation.php:2337
+msgid "Return to the Dashboard"
+msgstr "Ritorna alla dashboard"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1281
+msgid "Private Repository"
+msgstr "Archivio privato"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1285
+msgid "Pre-Packaged"
+msgstr "Preconfezionato"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1290
+msgid "WordPress Repository"
+msgstr "Archivio Wordpress"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1293
+msgid "Required"
+msgstr "Richiesto"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1293
+msgid "Recommended"
+msgstr "Raccomandato"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1296
+msgid "Not Installed"
+msgstr "Non installato"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1299
+msgid "Installed But Not Activated"
+msgstr "Installato ma non attivo"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1481
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+"Nessun plugin da installare o attivare. <a href=\"%1$s\">Ritorna alla "
+"Dashboard</a>"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1497
+msgid "Plugin"
+msgstr "Plugin"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1498
+msgid "Source"
+msgstr "Source"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1499
+msgid "Type"
+msgstr "Typo"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1500
+msgid "Status"
+msgstr "Status"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1518
+msgid "Install"
+msgstr "Install"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1519
+msgid "Activate"
+msgstr "Attiva"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1630
+msgid "No plugins are available to be installed at this time."
+msgstr "Nessun plugin è disponibile per essere installato in questo momento."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:1746
+msgid "No plugins are available to be activated at this time."
+msgstr "No plugins are available to be installed at this time."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2090
+msgid "Install package not available."
+msgstr "Pacchettodi installazione non disponibile"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2091
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Scarica il pacchetto di instaqllazione da <span class=\"code\">%s</"
+"span>&#8230;"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2092
+msgid "Unpacking the package&#8230;"
+msgstr "Scompatta il pacchetto&#8230;"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2093
+msgid "Installing the plugin&#8230;"
+msgstr "Installazione plugin&#8230;"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2094
+msgid "Plugin install failed."
+msgstr "Installazione plugin fallita."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2095
+msgid "Plugin installed successfully."
+msgstr "Plugin installato correttamente"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2106
+msgid "Plugin activation failed."
+msgstr "Attivazione plugin fallita."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2229
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Errore intercorso durante l'installazione %1$s: <strong>%2$s</strong>."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2230
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Installazione di %1$s fallita."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2234
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Processo di installazione e attivazione iniziato.Questo processo potrebbe "
+"richiedere alcuni minuti su alcuni Host, si prega di essere pazienti."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2235
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installato e attivato con successo."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2235
+#: ../includes/plugins/class-tgm-plugin-activation.php:2242
+msgid "Show Details"
+msgstr "Visualizza dettagli"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2235
+#: ../includes/plugins/class-tgm-plugin-activation.php:2242
+msgid "Hide Details"
+msgstr "Nascondi dettagli"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2236
+msgid "All installations and activations have been completed."
+msgstr "Tutte le installazioni e attivazioni sono state completate"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2237
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione e attivazione plugin %1$s (%2$d/%3$d)"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2241
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Il processo di installazione è iniziato. Potrebbe richiedere del tempo, per "
+"favore pazientate."
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2242
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installata con successo"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2243
+msgid "All installations have been completed."
+msgstr "Tute le installazioni sono completate"
+
+#: ../includes/plugins/class-tgm-plugin-activation.php:2244
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione plugin %1$s (%2$d/%3$d)"
+
+#: ../includes/plugins/widgets/widget-about.php:29
+#: ../includes/plugins/widgets/widget-about.php:35
+msgid "Transfers: About Widget"
+msgstr "Transfer: widget chi siamo"
+
+#: ../includes/plugins/widgets/widget-about.php:105
+msgid "About Transfers Community"
+msgstr "Transfers Comunity"
+
+#: ../includes/plugins/widgets/widget-about.php:106
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy "
+"nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut "
+"wisi enim ad minim veniam, quis nostrud exerci."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy "
+"nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut "
+"wisi enim ad minim veniam, quis nostrud exerci."
+
+#: ../includes/plugins/widgets/widget-about.php:112
+#: ../includes/plugins/widgets/widget-contact.php:120
+#: ../includes/plugins/widgets/widget-social.php:132
+msgid "Title:"
+msgstr "Titolo:"
+
+#: ../includes/plugins/widgets/widget-about.php:117
+msgid "About text:"
+msgstr "Testo:"
+
+#: ../includes/plugins/widgets/widget-call-to-action.php:29
+#: ../includes/plugins/widgets/widget-call-to-action.php:35
+msgid "Transfers: Call-To-Action Widget"
+msgstr "Transfer: Call-To-Action Widget"
+
+#: ../includes/plugins/widgets/widget-call-to-action.php:47
+#: ../includes/plugins/widgets/widget-call-to-action.php:112
+msgid "Like what you see? Are you ready to stand out? You know what to do!"
+msgstr "Ti piace quello che vedi? Sei pronto a distinguerti? Sai cosa fare!"
+
+#: ../includes/plugins/widgets/widget-call-to-action.php:48
+#: ../includes/plugins/widgets/widget-call-to-action.php:113
+msgid "Purchase theme"
+msgstr "Acquista tema"
+
+#: ../includes/plugins/widgets/widget-call-to-action.php:123
+msgid "Call to action text:"
+msgstr "Testo call to action"
+
+#: ../includes/plugins/widgets/widget-call-to-action.php:128
+msgid "Button text"
+msgstr "Testo bottone"
+
+#: ../includes/plugins/widgets/widget-call-to-action.php:133
+msgid "Button url"
+msgstr "Link bottone"
+
+#: ../includes/plugins/widgets/widget-contact.php:29
+#: ../includes/plugins/widgets/widget-contact.php:35
+msgid "Transfers: Contact Widget"
+msgstr "Transfer widget contatti"
+
+#: ../includes/plugins/widgets/widget-contact.php:111
+msgid "Need help?"
+msgstr "Bisogno di aiuto?"
+
+#: ../includes/plugins/widgets/widget-contact.php:112
+msgid "Contact us via phone or email:"
+msgstr "Contattaci via telefono o email:"
+
+#: ../includes/plugins/widgets/widget-contact.php:125
+msgid "Sub title:"
+msgstr "Sottotitolo"
+
+#: ../includes/plugins/widgets/widget-contact.php:130
+msgid "Company phone:"
+msgstr "Telefono"
+
+#: ../includes/plugins/widgets/widget-contact.php:135
+msgid "Company email:"
+msgstr "Email"
+
+#: ../includes/plugins/widgets/widget-featured-posts.php:27
+#: ../includes/plugins/widgets/widget-featured-posts.php:33
+msgid "Transfers: Featured Posts"
+msgstr "Transfer Articoli in evidenza"
+
+#: ../includes/plugins/widgets/widget-featured-posts.php:169
+msgid "How many posts do you want to display?"
+msgstr "Quanti articoli vuoi visualizzare?"
+
+#: ../includes/plugins/widgets/widget-featured-posts.php:178
+msgid "What do you want to sort the posts by?"
+msgstr "Con quale ordine vuoi che appaiano gli articoli?"
+
+#: ../includes/plugins/widgets/widget-featured-posts.php:189
+msgid "Sort posts in descending order?"
+msgstr "Ordine discendente degli articoli?"
+
+#: ../includes/plugins/widgets/widget-featured-posts.php:202
+msgid "How many posts do you want to display per row?"
+msgstr "Quanti articoli vuoi visualizzare per riga"
+
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:29
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:35
+msgid "Transfers: Featured Testimonial Widget"
+msgstr "Transfers: Widget testimonianze in evidenza"
+
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:47
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:110
+msgid "Wow, this theme is outstanding!"
+msgstr "Wow, questo tema è eccezionale!"
+
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:48
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:111
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy "
+"nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut "
+"wisi enim ad minim veniam, quis nostrud exerci tation nibh euismod tincidunt "
+"ut laoreet dolore magna aliquam erat volutpat."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy "
+"nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut "
+"wisi enim ad minim veniam, quis nostrud exerci tation nibh euismod tincidunt "
+"ut laoreet dolore magna aliquam erat volutpat."
+
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:49
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:112
+msgid "-John Doe, ThemeForest"
+msgstr "-John Doe, ThemeForest"
+
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:121
+msgid "Testimonial title:"
+msgstr "Titolo testimonianza:"
+
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:126
+msgid "Testimonial text"
+msgstr "Testo testimonianza:"
+
+#: ../includes/plugins/widgets/widget-featured-testimonial.php:131
+msgid "Testimonial author"
+msgstr "Autore testimonianza"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:41
+#: ../includes/plugins/widgets/widget-hero-unit.php:47
+msgid "Transfers: Hero Unit Widget"
+msgstr "Transfers: Hero Unit Widget (slider)"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:59
+#: ../includes/plugins/widgets/widget-hero-unit.php:139
+msgid "Need a ride?"
+msgstr "Hai bisogno di una corsa?"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:60
+#: ../includes/plugins/widgets/widget-hero-unit.php:140
+msgid "You've come to the right place."
+msgstr "Sei nel posto giusto."
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:62
+#: ../includes/plugins/widgets/widget-hero-unit.php:142
+msgid "Our services"
+msgstr "I nostri servizi"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:64
+#: ../includes/plugins/widgets/widget-hero-unit.php:144
+msgid "Make a booking"
+msgstr "Effettua una prenotazione"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:153
+msgid "Hero unit title:"
+msgstr "Hero unit titolo:"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:158
+msgid "Hero unit image:"
+msgstr "Immagine Hero Unit:"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:160
+msgid "Select image"
+msgstr "Seleziona immagine:"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:164
+msgid "Hero unit sub title:"
+msgstr "Hero Unit sottotitolo:"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:169
+msgid "Button 1 url"
+msgstr "Link bottone 1"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:174
+msgid "Button 1 text"
+msgstr "Testo bottone 1"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:179
+msgid "Button 2 url"
+msgstr "Link bottone 2"
+
+#: ../includes/plugins/widgets/widget-hero-unit.php:184
+msgid "Button 2 text"
+msgstr "Testo bottone 2"
+
+#: ../includes/plugins/widgets/widget-iconic-features.php:29
+#: ../includes/plugins/widgets/widget-iconic-features.php:35
+msgid "Transfers: Iconic Features Widget"
+msgstr "Transfers: Iconic Features Widget"
+
+#: ../includes/plugins/widgets/widget-iconic-features.php:167
+msgid "How many features do you want to display?"
+msgstr "Quante features vuoi visualizzare?"
+
+#: ../includes/plugins/widgets/widget-iconic-features.php:184
+msgid "How many features do you want to display per row?"
+msgstr "Quante features vuoi visualizzare per riga?"
+
+#: ../includes/plugins/widgets/widget-iconic-features.php:201
+#, php-format
+msgid "Feature %d"
+msgstr "Feature %d"
+
+#: ../includes/plugins/widgets/widget-iconic-features.php:203
+msgid "Feature icon class"
+msgstr "Feature icon class"
+
+#: ../includes/plugins/widgets/widget-iconic-features.php:211
+msgid "Feature title"
+msgstr "Titolo feature"
+
+#: ../includes/plugins/widgets/widget-iconic-features.php:215
+msgid "Feature text"
+msgstr "Teato feature"
+
+#: ../includes/plugins/widgets/widget-social.php:29
+#: ../includes/plugins/widgets/widget-social.php:35
+msgid "Transfers: Social Widget"
+msgstr "Transfers: Social Widget"
+
+#: ../includes/plugins/widgets/widget-social.php:120
+msgid "Follow us"
+msgstr "Seguici"
+
+#: ../includes/plugins/widgets/widget-social.php:137
+msgid "Facebook ID:"
+msgstr "Facebook ID:"
+
+#: ../includes/plugins/widgets/widget-social.php:142
+msgid "Twitter ID:"
+msgstr "Twitter ID:"
+
+#: ../includes/plugins/widgets/widget-social.php:147
+msgid "GPlus url:"
+msgstr "GPlus url:"
+
+#: ../includes/plugins/widgets/widget-social.php:152
+msgid "LinkedIn url:"
+msgstr "LinkedIn url:"
+
+#: ../includes/plugins/widgets/widget-social.php:157
+msgid "Vimeo profile:"
+msgstr "Vimeo profile:"
+
+#: ../includes/plugins/widgets/widget-social.php:162
+msgid "Pinterest url:"
+msgstr "Pinterest url:"
+
+#: ../includes/theme_actions.php:55
+msgid "Password"
+msgstr "Password"
+
+#: ../includes/theme_actions.php:59
+msgid "Repeat password"
+msgstr "Repeat password"
+
+#: ../includes/theme_actions.php:92
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: ../includes/theme_actions.php:93
+msgid "Footer Menu"
+msgstr "Menu fondo pagina"
+
+#: ../includes/theme_actions.php:116
+msgid "Left Sidebar"
+msgstr "Sidebar di sinistra"
+
+#: ../includes/theme_actions.php:118
+msgid "This Widget area is used for the left sidebar"
+msgstr "Questo widget viene utilizzato dalla per la sidebar di sinistra"
+
+#: ../includes/theme_actions.php:127
+msgid "Right Sidebar"
+msgstr "Sidebar di destra"
+
+#: ../includes/theme_actions.php:129
+msgid "This Widget area is used for the right sidebar"
+msgstr "Questo widget viene utilizzato per la sidebar di destra"
+
+#: ../includes/theme_actions.php:138
+msgid "Under Header Sidebar"
+msgstr "Sidebar sotto la testata"
+
+#: ../includes/theme_actions.php:140
+msgid "This Widget area is placed under the website header"
+msgstr "Questo widget viene utilizzato per la sidebar sotto la testata"
+
+#: ../includes/theme_actions.php:149
+msgid "Above Footer Sidebar"
+msgstr "Sidebar prima del footer"
+
+#: ../includes/theme_actions.php:151
+msgid "This Widget area is placed above the website footer"
+msgstr "Questo widget viene utilizzato per la sidebar prima del footer"
+
+#: ../includes/theme_actions.php:160
+msgid "Footer Sidebar"
+msgstr "Footer sidebar"
+
+#: ../includes/theme_actions.php:162
+msgid "This Widget area is used for the footer area"
+msgstr "questo widget viene utilizzato per il footer"
+
+#: ../includes/theme_actions.php:171
+msgid "Home Content Widget Area"
+msgstr "Widget per Contenuto della home page"
+
+#: ../includes/theme_actions.php:173
+msgid "This Widget area is used for the home page main content area"
+msgstr "Questo widget viene utilizzato per realizzare la home page"
+
+#: ../includes/theme_actions.php:190 ../includes/theme_actions.php:196
+msgid "on"
+msgstr "in"
+
+#: ../includes/theme_ajax.php:183
+#, php-format
+msgid "Contact form submission [%s]"
+msgstr "Invio Form contatti [%s]"
+
+#: ../includes/theme_ajax.php:184
+#, php-format
+msgid ""
+"Name: %s\n"
+"\n"
+"Email: %s\n"
+"\n"
+"Message: %s"
+msgstr ""
+"Nome: %s\n"
+"\n"
+"Email: %s\n"
+"\n"
+"Messaggio: %s"
+
+#: ../includes/theme_filters.php:47
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: ../includes/theme_meta_boxes.php:26 ../options.php:23
+msgid "No sidebar"
+msgstr "Nessuna sidebar"
+
+#: ../includes/theme_meta_boxes.php:27 ../options.php:24
+msgid "Left sidebar"
+msgstr "Sidebar a sinistra"
+
+#: ../includes/theme_meta_boxes.php:28 ../options.php:25
+msgid "Right sidebar"
+msgstr "Sidebar a destra"
+
+#: ../includes/theme_meta_boxes.php:29 ../options.php:26
+msgid "Left and right sidebars"
+msgstr "Sidebar di destra e di sinistra"
+
+#: ../includes/theme_meta_boxes.php:33
+msgid "Select sidebar positioning"
+msgstr "Seleziona la posizione della sidebar"
+
+#: ../includes/theme_meta_boxes.php:41
+msgid "Sidebar selection"
+msgstr "Seleziona side"
+
+#: ../includes/theme_utils.php:42
+#, php-format
+msgid "%s - User Activation"
+msgstr "%s - Attivazione utente"
+
+#: ../includes/theme_utils.php:43
+#, php-format
+msgid ""
+"To activate your user account, please click the activation link below: \n"
+"\n"
+"%s"
+msgstr ""
+"Per attivare il tuo account clicca sul link sottostante: \n"
+"\n"
+"%s"
+
+#: ../includes/theme_utils.php:99
+#, php-format
+msgid "%s - User Activation Success "
+msgstr "%s - Attivazione avvenuta con successo"
+
+#: ../includes/theme_utils.php:102
+msgid ""
+"Thank you for activating your account! You may now log in using the "
+"credentials you supplied when you created your account."
+msgstr ""
+"Grazie per aver attivato il tuo account. Ora è possibile accedere "
+"utilizzando le credenziali fornite al momento della creazione dell'account."
+
+#: ../includes/theme_utils.php:105
+#, php-format
+msgid ""
+"Thank you for activating your account. You may now log in using the "
+"following credentials:\\n\\nUsername: %s\\n\\nPassword: %s\\n\\nLogin url: %s"
+msgstr ""
+"Grazie per aver attivato il tuo account. Puoi utilizzare le seguenti "
+"credenziali per accedere al sito :\\n\\nUsername: %s\\n\\nPassword: %s\\n"
+"\\nLogin url: %s"
+
+#: ../includes/theme_utils.php:175
+#, php-format
+msgid "%s - Reset Password "
+msgstr "%s - Reset Password "
+
+#: ../includes/theme_utils.php:176
+#, php-format
+msgid ""
+"To reset your password please go to the following url: \n"
+"\n"
+"%s\n"
+"\n"
+"\n"
+"\n"
+"This link will remain valid for the next 24 hours.\n"
+"\n"
+"In case you did not request a password reset, please ignore this email."
+msgstr ""
+"Per resettare la tua password clicchi sul seguente link: \n"
+"\n"
+"%s\n"
+"\n"
+"\n"
+"\n"
+"Questo link sarà valido per le prossime 24 ore.\n"
+"\n"
+"In caso non abbia richiesto un reset della password ignori  l'email."
+
+#: ../includes/theme_utils.php:209
+#, php-format
+msgid "%s - New Password "
+msgstr "%s - Nuova password"
+
+#: ../includes/theme_utils.php:210
+#, php-format
+msgid ""
+"Your password was successfully reset. \n"
+"\n"
+"\n"
+"\n"
+"Your new password is: %s"
+msgstr ""
+"La sua password è stata resettata con successo.\n"
+"\n"
+"\n"
+"\n"
+"La nuova password è: %s"
+
+#: ../includes/theme_utils.php:245
+#, php-format
+msgid "<strong>%s</strong> <span class=\"says\">said on</span> "
+msgstr "<strong>%s</strong> <span class=\"says\">ha detto </span> "
+
+#: ../includes/theme_utils.php:248
+msgid "(Edit)"
+msgstr "(Modifica)"
+
+#: ../includes/theme_utils.php:257
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione"
+
+#: ../includes/theme_utils.php:327
+msgid "&lt;"
+msgstr "&lt;"
+
+#: ../includes/theme_utils.php:328
+msgid "&gt;"
+msgstr "&gt;"
+
+#: ../options.php:30
+msgid "Title"
+msgstr "Titolo"
+
+#: ../options.php:31
+msgid "ID"
+msgstr "ID"
+
+#: ../options.php:32
+msgid "Publish date"
+msgstr "Data di pubblicazione"
+
+#: ../options.php:34
+msgid "Comment count"
+msgstr "Totale commenti"
+
+#: ../options.php:37
+msgid "Default (pink)"
+msgstr "Prefedinito (rosa)"
+
+#: ../options.php:38
+msgid "Beige"
+msgstr "Beige"
+
+#: ../options.php:39
+msgid "Dark blue"
+msgstr "Blu scuro"
+
+#: ../options.php:40
+msgid "Dark green"
+msgstr "Verde scuro"
+
+#: ../options.php:41
+msgid "Grey"
+msgstr "Grigio"
+
+#: ../options.php:42
+msgid "Light blue"
+msgstr "Blu chiaro"
+
+#: ../options.php:43
+msgid "Light green"
+msgstr "Verde chiaro"
+
+#: ../options.php:44
+msgid "Lime"
+msgstr "Lime"
+
+#: ../options.php:45
+msgid "Navy"
+msgstr "Navy"
+
+#: ../options.php:46
+msgid "Peach"
+msgstr "Pesca"
+
+#: ../options.php:47
+msgid "Purple"
+msgstr "Viola"
+
+#: ../options.php:48
+msgid "Red"
+msgstr "Rosso"
+
+#: ../options.php:49
+msgid "Teal"
+msgstr "Teal"
+
+#: ../options.php:50
+msgid "Turquoise"
+msgstr "Turchese"
+
+#: ../options.php:51
+msgid "Yellow"
+msgstr "Giallo"
+
+#: ../options.php:62
+msgid "Zero (e.g. $200)"
+msgstr "Zero (es. $200)"
+
+#: ../options.php:63
+msgid "One  (e.g. $200.0)"
+msgstr "Uno  (es. $200.0)"
+
+#: ../options.php:64
+msgid "Two (e.g. $200.00)"
+msgstr "Due (es. $200.00)"
+
+#: ../options.php:70
+msgid "General Settings"
+msgstr "Settaggi generali"
+
+#: ../options.php:75
+msgid "Website logo"
+msgstr "Logo del sito"
+
+#: ../options.php:76
+msgid "Upload your website logo to go in place of default theme logo."
+msgstr "Carica il tuo logo"
+
+#: ../options.php:83
+msgid "Favicon"
+msgstr "Favicon"
+
+#: ../options.php:84
+msgid "Upload your website favicon to go in place of default theme favicon."
+msgstr "Carica la tua favicon"
+
+#: ../options.php:90
+msgid "Select color scheme"
+msgstr "Seleziona lo schema colori"
+
+#: ../options.php:91
+msgid "Select website color scheme."
+msgstr "Seleziona lo schema colori del sito"
+
+#: ../options.php:99 ../page-user-account.php:228
+msgid "Company name"
+msgstr "Nome della ditta/sito"
+
+#: ../options.php:100
+msgid "Company name displayed on the contact us page."
+msgstr "Nome visualizzato nella pagina dei contatti"
+
+#: ../options.php:107
+msgid "Contact address"
+msgstr "Indirizzo"
+
+#: ../options.php:108
+msgid "Contact address displayed on the contact us page."
+msgstr "Indirizzo da visualizzare nella pagina dei contatti"
+
+#: ../options.php:115
+msgid "Contact address latitude"
+msgstr "Latitudine dell'indirizzo"
+
+#: ../options.php:116
+msgid "Enter your address latitude to use for contact form map"
+msgstr "Inserisci la latitudine del tuo indirizzo"
+
+#: ../options.php:123
+msgid "Contact address longitude"
+msgstr "Longitudine dell'indirizzo"
+
+#: ../options.php:124
+msgid "Enter your address longitude to use for contact form map"
+msgstr "Inserisci la longitudine del tuo indirizzo"
+
+#: ../options.php:131
+msgid "Footer copyright notice"
+msgstr "Nota di Copyright a fondo pagina"
+
+#: ../options.php:132
+msgid "Copyright notice in footer."
+msgstr "Nota Copyright a fondo pagina"
+
+#: ../options.php:138
+msgid "Configuration Settings"
+msgstr "Configurazione"
+
+#: ../options.php:144
+msgid "By minute"
+msgstr "per minuti"
+
+#: ../options.php:145
+msgid "By price"
+msgstr "per prezzo"
+
+#: ../options.php:148
+msgid "Sort search results by"
+msgstr "Ordina i risultati per"
+
+#: ../options.php:149
+msgid "What do you want search results to be sorted by?"
+msgstr "Secondo cosa vuoi ordinare i risultati?"
+
+#: ../options.php:158
+msgid "1 minute"
+msgstr "1 minuto"
+
+#: ../options.php:159
+msgid "5 minutes"
+msgstr "5 minuti"
+
+#: ../options.php:160
+msgid "10 minutes"
+msgstr "10 minuti"
+
+#: ../options.php:161
+msgid "30 minutes"
+msgstr "30 minuti"
+
+#: ../options.php:162
+msgid "60 minutes"
+msgstr "60 minuti"
+
+#: ../options.php:165
+msgid "Transfer time slot increment"
+msgstr "Slot di tempo del trasferimento"
+
+#: ../options.php:166
+msgid ""
+"Time slot increment is used when creating availability time slots for "
+"transfers. The increment determines what values the time slot dropdown "
+"contains when creating daily, weekly, month entries."
+msgstr ""
+"Lo slot di tempo viene utilizzato al momento della creazione della "
+"disponibilità per il trasferimento. L'incremento determina la quantità delle "
+"disponibilità all'interno di un giorno mese o settimana"
+
+#: ../options.php:175
+msgid "0 hours"
+msgstr "0 ore"
+
+#: ../options.php:176
+msgid "1 hour"
+msgstr "1 ora"
+
+#: ../options.php:177
+msgid "2 hours"
+msgstr "2 ore"
+
+#: ../options.php:178
+msgid "3 hours"
+msgstr "3 ore"
+
+#: ../options.php:179
+msgid "4 hours"
+msgstr "4 ore"
+
+#: ../options.php:180
+msgid "5 hours"
+msgstr "5 ore"
+
+#: ../options.php:183
+msgid "Search backwards time slot offset"
+msgstr "Ricerca a ritroso fascia oraria"
+
+#: ../options.php:184
+msgid ""
+"When showing search results, show results that include starting times X "
+"(this offset) hours before searched-for time"
+msgstr ""
+"Quando vengono visualizzati i risultati della ricerca viene inserito il "
+"tempo di partenza"
+
+#: ../options.php:193
+msgid "1 result"
+msgstr "1 risultato"
+
+#: ../options.php:194
+msgid "2 results"
+msgstr "2 risultati"
+
+#: ../options.php:195
+msgid "3 results"
+msgstr "3 risultati"
+
+#: ../options.php:196
+msgid "4 results"
+msgstr "4 risultati"
+
+#: ../options.php:197
+msgid "5 results"
+msgstr "5 risultati"
+
+#: ../options.php:198
+msgid "6 results"
+msgstr "6 risultati"
+
+#: ../options.php:199
+msgid "7 results"
+msgstr "7 risultati"
+
+#: ../options.php:200
+msgid "8 results"
+msgstr "8 risultati"
+
+#: ../options.php:201
+msgid "9 results"
+msgstr "9 risultati"
+
+#: ../options.php:202
+msgid "10 results"
+msgstr "10 risultati"
+
+#: ../options.php:205
+msgid "Search results by minute count"
+msgstr "Risultati per minutaggio"
+
+#: ../options.php:206
+msgid ""
+"If displaying availabilities by minute (running availabilities) this setting "
+"determines how many of these you want to show. e.g. if transport is "
+"available every 10 minutes, and you set this value to 10, you will show 10 "
+"results from now incremenenting by 10 minutes."
+msgstr ""
+"Se è disponibile la visualizzazione per minuto questa impostazione determina "
+"quanti risultati si desidera visualizzare. per esempio. se il trasporto è "
+"disponibile ogni 10 minuti, e si imposta questo valore a 10, si mostrano 10 "
+"risultati partendo dall'orario scelto ogni 10 minuti."
+
+#: ../options.php:215
+msgid "Price decimal places"
+msgstr "Decimali"
+
+#: ../options.php:216
+msgid "Number of decimal places to show for prices"
+msgstr "Numero di decimali da visualizzare"
+
+#: ../options.php:224
+msgid "Default currency symbol"
+msgstr "Simbolo della valuta"
+
+#: ../options.php:225
+msgid "What is your default currency symbol"
+msgstr "Quale è il simbolo della tua valuta"
+
+#: ../options.php:232
+msgid "Show currency symbol after price?"
+msgstr "Visualizza il simbolo della valuta dopo il prezzo?"
+
+#: ../options.php:233
+msgid ""
+"If this option is checked, currency symbol will show up after the price, "
+"instead of before (e.g. 150 $ instead of $150)."
+msgstr ""
+"Se selezionata il simbolo viene visualizzato dopo il prezzo, altrimenti "
+"prima (es. 150 $ invece di $150)."
+
+#: ../options.php:240
+msgid "Enable RTL"
+msgstr "Abilita RTL"
+
+#: ../options.php:241
+msgid "Enable right-to-left support"
+msgstr "Abilita il supporto da destra-a-sinistra"
+
+#: ../options.php:247
+msgid "Show preloader"
+msgstr "Visualizza il preloader"
+
+#: ../options.php:248
+msgid "Show preloader on pages while pages are loading"
+msgstr ""
+"Visualizza il preloader nelle pagine prima che la pagina sia completamente "
+"caricata"
+
+#: ../options.php:254
+msgid "Add captcha to forms"
+msgstr "Aggiungi il captcha ai form"
+
+#: ../options.php:255
+msgid ""
+"Add simple captcha implemented inside transfers theme to forms (login, "
+"register, book, inquire, contact etc)"
+msgstr ""
+"Aggiungi un semplice captcha ai form già implementati sul sito (login, "
+"registrazione, prenotazione,  contatti ecc)"
+
+#: ../options.php:261
+msgid "Users specify password"
+msgstr "Lascia che l'utente scelga la password"
+
+#: ../options.php:262
+msgid "Let users specify their password when registering"
+msgstr "Abilita l'utente alla scelta della password personale"
+
+#: ../options.php:268
+msgid "Override wp-login.php"
+msgstr "Sovrascrivi wp-login.php"
+
+#: ../options.php:269
+msgid ""
+"Override wp-login.php and use custom login, register, forgot password pages"
+msgstr "Sovrascrivi la pagina di login di wordpress e rendila personalizzata."
+
+#: ../options.php:275
+msgid "Page Settings"
+msgstr "Page Settings"
+
+#: ../options.php:279
+msgid "Login page"
+msgstr "Pagina login"
+
+#: ../options.php:280
+msgid "Login page url"
+msgstr "Link pagina login"
+
+#: ../options.php:288
+msgid "Redirect to after login"
+msgstr "Redirect dopo il login"
+
+#: ../options.php:289
+msgid "Page to redirect to after login"
+msgstr "Pagina a cui direzionare l'utente dopo il login"
+
+#: ../options.php:297
+msgid "Redirect to after logout"
+msgstr "Redirect a dopo il login"
+
+#: ../options.php:298
+msgid "Page to redirect to after logout"
+msgstr "Pagina di redirect dopo il login"
+
+#: ../options.php:306
+msgid "Register page"
+msgstr "Pagina di registrazione"
+
+#: ../options.php:307
+msgid "Register page url"
+msgstr "Link pagina di registrazione"
+
+#: ../options.php:315
+msgid "Reset password page"
+msgstr "Pagina per il reset della password"
+
+#: ../options.php:316
+msgid "Reset password page url"
+msgstr "Link pagina per il reset della password"
+
+#: ../options.php:324 ../options.php:325
+msgid "Terms &amp; conditions page url"
+msgstr "Link pagina Termini e condizioni"
+
+#: ../options.php:333
+msgid "Contact page"
+msgstr "Pagina contatti"
+
+#: ../options.php:334
+msgid "Contact page url"
+msgstr "Link pagina contatti"
+
+#: ../options.php:342
+msgid "Blog index sidebar position"
+msgstr "Sidebar per la pagina del blog"
+
+#: ../options.php:343
+msgid ""
+"Select the position (if any) of sidebars to appear on the blog index page of "
+"your website."
+msgstr "Seleziona la posizione della sidebar per il blog"
+
+#: ../options.php:351
+msgid "Blog index sort by column"
+msgstr "Numero di colonne"
+
+#: ../options.php:352
+msgid "Select the column you want blog posts to be sorted in blog index."
+msgstr ""
+"Seleziona il numero di colonne che vuoi visualizzare nella pagina principale "
+"del blog"
+
+#: ../options.php:360
+msgid "Blog index sort descending"
+msgstr "Indicizzato per valori discendenti?"
+
+#: ../options.php:361
+msgid "Sort posts in descending order on blog index page"
+msgstr "Visualizza per ordine discendente i trisultati del blog"
+
+#: ../options.php:367
+msgid "Blog index show posts in grid view"
+msgstr "Visualizzazione a griglia pegli articoli del blog"
+
+#: ../options.php:368
+msgid "Show posts in grid view on blog index page"
+msgstr "Visualizza gli articoli del blog con disposizione a griglia"
+
+#: ../options.php:380
+msgid "Enable 'Services'"
+msgstr "Abilita \"servizi\""
+
+#: ../options.php:381
+msgid "Enable the 'Services' data type"
+msgstr "Abilita la scheda servizi"
+
+#: ../options.php:388
+msgid "Iconic Features Widget classes"
+msgstr "Classe per il widget Iconic Features"
+
+#: ../options.php:389
+msgid ""
+"The css classes used for features icons in Iconic Features Widget on home "
+"page and in other sidebars"
+msgstr ""
+"Le classi CSS utilizzate per le icone saranno utilizzati per home page e "
+"sidebar"
+
+#: ../options.php:400
+msgid "Enable 'Faqs'"
+msgstr "Abilita \"faqs\""
+
+#: ../options.php:401
+msgid "Enable the 'Faqs' data type"
+msgstr "Abilita la scheda delle Faq"
+
+#: ../options.php:411
+msgid "Enable 'Destinations'"
+msgstr "Abilita \"destinazioni\""
+
+#: ../options.php:412
+msgid "Enable the 'Destinations' data type"
+msgstr "Abilita la scheda delle destinazioni"
+
+#: ../options.php:418
+msgid "Single destination permalink slug"
+msgstr "Permalink per le destinazioni singole"
+
+#: ../options.php:419
+msgid ""
+"The permalink slug used for creating a single destination (by default it is "
+"set to \"destinations\". <br /><strong>Note:</strong> Please make sure you "
+"flush your rewrite rules after changing this setting. You can do so by "
+"navigating to <a href=\"/wp-admin/options-permalink.php\">Settings-"
+">Permalinks</a> and clicking \"Save Changes\"."
+msgstr ""
+"Il permalink è utilizzato per la creazione di una singola destinazione (di "
+"default è impostato su \"destinazioni\" <br /> <strong> Nota. </ Strong> Si "
+"raccomanda rigenerare le rewrite rules (regole di riscrittura) dopo aver "
+"cambiato questa impostazione è possibile farlo navigando a <a href=\"/wp-"
+"admin/options-permalink.php\">Settings->Permalinks</a> and clicking \"Salva "
+"modifiche\"."
+
+#: ../options.php:425
+msgid "Destinations archive posts per page"
+msgstr "Archivio destinazioni visualizzazione per pagina"
+
+#: ../options.php:426
+msgid "Number of destinations to display on destinations archive page"
+msgstr "Numero di destinazioni da visualizzare nell'archio delle destinazioni"
+
+#: ../options.php:432
+msgid "Extra fields displayed on single destination page."
+msgstr "Campi extra visibili nella singola destinazione"
+
+#: ../options.php:433
+msgid "Extra fields displayed on single destination page if set."
+msgstr "Campi extra visibili nella pagina destinazione se selezionato"
+
+#: ../options.php:439
+msgid "Transport Types"
+msgstr "Tipi di trasporto"
+
+#: ../options.php:443
+msgid "Enable 'Transport types'"
+msgstr "Abilita \"tipi di trasporto\""
+
+#: ../options.php:444
+msgid "Enable the 'Transport types' data type"
+msgstr "Abilita la scheda dei tipi di trasporto"
+
+#: ../options.php:450
+msgid "Enable 'Extra items'"
+msgstr "Abilita \"elementi extra\""
+
+#: ../options.php:451
+msgid "Enable the 'Extra items' data type"
+msgstr "Abilita la scheda degli elementi extra"
+
+#: ../options.php:458
+msgid "WooCommerce Settings"
+msgstr "Impostazione WooCommerce"
+
+#: ../options.php:462
+msgid "Use WooCommerce for checkout"
+msgstr "Usa WooCommerce per il ceckout"
+
+#: ../options.php:463
+msgid "Use WooCommerce to enable payment after booking"
+msgstr "Usa WooCommerce per abilitare i pagamenti dopo la prenotazione"
+
+#: ../options.php:469
+msgid "Product placeholder image"
+msgstr "Immagine di copertina del prodotto"
+
+#: ../options.php:470
+msgid ""
+"Upload a custom product placeholder image to go in place of default product "
+"image used in WooCommerce cart."
+msgstr ""
+"Carica immagine del prodotto per sostituire le immagini di default di  "
+"WooCommerce che saranno inserirte nel carrello."
+
+#: ../options.php:475
+msgid "Pending"
+msgstr "In attesa di"
+
+#: ../options.php:476
+msgid "On hold"
+msgstr "In attesa"
+
+#: ../options.php:477
+msgid "Completed"
+msgstr "Completato"
+
+#: ../options.php:478
+msgid "Processing"
+msgstr "In fase di elaborazione"
+
+#: ../options.php:479
+msgid "Cancelled"
+msgstr "Cancellato"
+
+#: ../options.php:480
+msgid "Initiated"
+msgstr "Inizializzato"
+
+#: ../options.php:484
+msgid "Completed order WooCommerce statuses"
+msgstr "Stato dell'ordine di WooCommerce completato"
+
+#: ../options.php:485
+msgid ""
+"Which WooCommerce statuses do you want to consider as booked so that "
+"transfer is no longer seen as available?"
+msgstr ""
+"Quale status di WooCommerce vuoi considerare come prenotazione quando  il "
+"trasporto non è più  disponibile?"
+
+#: ../options.php:493
+msgid "WooCommerce pages sidebar position"
+msgstr "Posizione sidebar WooCommerce"
+
+#: ../options.php:494
+msgid ""
+"Select the position (if any) of sidebars to appear on all WooCommerce-"
+"specific pages of your website."
+msgstr ""
+"Seleziona la posizione della sidebar (se esistente) per le pagine WooCommerce"
+
+#: ../options.php:507
+msgid "Database"
+msgstr "Database"
+
+#: ../options.php:511
+msgid "Create tables"
+msgstr "Crea tabella"
+
+#: ../options.php:512
+msgid "The Transfers Theme database tables don't exist!"
+msgstr "La tabella del tema Transfers non esiste"
+
+#: ../options.php:513
+msgid ""
+"The Transfers Theme database tables need creation. Click the button above to "
+"create them."
+msgstr ""
+"Si necessita della creazione della tabella trasfers all'interno del "
+"database. Clicca il cottone sottostante per crearla."
+
+#: ../page-advanced-search.php:125 ../page-booking-form.php:223
+#: ../page-contact-form-7.php:82 ../page-contact.php:90
+#: ../page-destination-list.php:87 ../page-faq-list.php:79
+#: ../page-service-list.php:75 ../page-user-account.php:80
+#: ../page-user-login.php:98 ../page-user-register.php:202
+#: ../page-user-resetpassword.php:127 ../page.php:61
+#: ../single-destination.php:73 ../single.php:55
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua lettura  <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../page-advanced-search.php:139
+msgid "Select transfer for your DEPARTURE"
+msgstr "Seleziona trasferimento per la PARTENZA"
+
+#: ../page-advanced-search.php:242
+msgid "No results found for your departure"
+msgstr "Nessun risultato trovato per la partenza"
+
+#: ../page-advanced-search.php:243 ../page-advanced-search.php:355
+#: ../page-advanced-search.php:361
+msgid "Please try different search parameters in the search form above."
+msgstr ""
+"Si prega di tentare la ricerca con parametri differenti attraverso il form "
+"sottostante."
+
+#: ../page-advanced-search.php:253
+msgid "Select transfer for your RETURN"
+msgstr "Seleziona un trasferimento per il RITORNO"
+
+#: ../page-advanced-search.php:354 ../page-advanced-search.php:360
+msgid "No results found for your return trip"
+msgstr "Nessun risultato trovato per il tuo viaggio di ritorno"
+
+#: ../page-advanced-search.php:367
+msgid "book transfers"
+msgstr "Prenota trasferimento"
+
+#: ../page-advanced-search.php:370
+msgid "No search results found"
+msgstr "Nessun risultato trovato."
+
+#: ../page-advanced-search.php:371
+msgid "Please try different search paramters in the search form above."
+msgstr ""
+"Si rpega di riprovare utilizzando parametri differenti attraverso il form "
+"sottostante."
+
+#: ../page-booking-form.php:117
+msgid ""
+"You have not selected a valid transfer. Please use our advanced search "
+"facility to find and select a valid transfer before proceeding."
+msgstr ""
+"Non è stato selezionato un trasferimento valido Si prega di usare il nostro "
+"modulo di ricerca avanzatoper selezionare un trasporto valido prima della "
+"prenotazione."
+
+#: ../page-booking-form.php:119
+msgid ""
+"You have not selected a valid departure date for your transfer. Please use "
+"our advanced search facility to select a valid transfer before proceeding."
+msgstr ""
+"Non è stata selezionata una partenza valida. Si prega di usare il nostro "
+"modulo di ricerca avanzatoper selezionare un trasporto valido prima della "
+"prenotazione."
+
+#: ../page-booking-form.php:121
+msgid ""
+"You have not selected a valid return date for your transfer. Please use our "
+"advanced search facility to select a valid transfer before proceeding."
+msgstr ""
+"Non avete selezionato un ritorno valido. Si prega di usare il nostro modulo "
+"di ricerca avanzatoper selezionare un trasporto valido prima della "
+"prenotazione."
+
+#: ../page-booking-form.php:124
+msgid ""
+"The transfer you have selected is no longer available. Please use our "
+"advanced search facility to find and select a valid transfer before "
+"proceeding."
+msgstr ""
+"Il trasferimento selezionato non è disponibile.Si prega di usare il nostro "
+"modulo di ricerca avanzatoper selezionare un trasporto valido prima della "
+"prenotazione."
+
+#: ../page-booking-form.php:186 ../page-booking-form.php:191
+msgid "at"
+msgstr "a"
+
+#: ../page-booking-form.php:187 ../page-booking-form.php:192
+msgid "to"
+msgstr "a"
+
+#: ../page-booking-form.php:187 ../page-booking-form.php:192
+msgid "by"
+msgstr "attraverso"
+
+#: ../page-booking-form.php:187 ../page-booking-form.php:192
+msgid "private"
+msgstr "privato"
+
+#: ../page-booking-form.php:187 ../page-booking-form.php:192
+msgid "shared"
+msgstr "Shared"
+
+#: ../page-booking-form.php:201
+msgid "Thank you. Your booking is now confirmed."
+msgstr "Grazie. La vostra prenotazione è confermata."
+
+#: ../page-booking-form.php:238
+msgid ""
+"Please select the total number of extra items for your transfers. If you "
+"arrive with more extra items than specified at booking, we cannot guarantee "
+"to transport them. In case we are able to transport them, we will charge you "
+"an additional fee."
+msgstr ""
+"Seleziona il numero totale degli Extra per il viaggio. Se  disporrete di "
+"maggiori extra rispetto alla prenotazione non potremo garantire di poterli "
+"trasportare. In caso sia possibile il trasporto sarà applicata una "
+"maggiorazione sul trasporto."
+
+#: ../page-booking-form.php:241 ../page-booking-form.php:451
+msgid "Passenger details"
+msgstr "Dettaglio passeggero"
+
+#: ../page-booking-form.php:242
+msgid ""
+"Please ensure all of the required fields are completed at the time of "
+"booking. This information is imperative to ensure a smooth journey.<br />All "
+"fields are required."
+msgstr ""
+"Si prega di verificare che tutti i campi richiesti siano compilati "
+"correttamente al momento della prenotazione. Queste informazioni sono "
+"fondamentali per garantire un viaggio senza inconvenienti.<br/> Tutti i "
+"campi sono richiesti"
+
+#: ../page-booking-form.php:249
+msgid "Departure extra items"
+msgstr "Extra per trasferimento di andata"
+
+#: ../page-booking-form.php:252 ../page-booking-form.php:309
+msgid "Extra item type"
+msgstr "Tipi di Extra"
+
+#: ../page-booking-form.php:306
+msgid "Return extra items"
+msgstr "Extra per trasferimento di ritorno"
+
+#: ../page-booking-form.php:361 ../page-booking-form.php:436
+msgid "Go back"
+msgstr "Torna in dietro"
+
+#: ../page-booking-form.php:362 ../page-booking-form.php:437
+msgid "Continue"
+msgstr "Continua"
+
+#: ../page-booking-form.php:368
+msgid "Invalid captcha. Please answer captcha correctly."
+msgstr "Captcha invalido. Si prega di rispondere correttamente"
+
+#: ../page-booking-form.php:383 ../page-contact.php:109
+#: ../page-user-account.php:232
+msgid "Email address"
+msgstr "Email"
+
+#: ../page-booking-form.php:387 ../page-booking-form.php:457
+#: ../page-user-account.php:238
+msgid "Telephone"
+msgstr "Telefono"
+
+#: ../page-booking-form.php:393 ../page-booking-form.php:465
+#: ../page-user-account.php:242
+msgid "Street address"
+msgstr "Via"
+
+#: ../page-booking-form.php:397 ../page-booking-form.php:469
+#: ../page-user-account.php:248
+msgid "City"
+msgstr "Città"
+
+#: ../page-booking-form.php:403 ../page-booking-form.php:473
+#: ../page-user-account.php:252
+msgid "Post code"
+msgstr "CAP"
+
+#: ../page-booking-form.php:424 ../page-contact.php:122
+#: ../page-user-register.php:269
+#, php-format
+msgid "How much is %d + %d"
+msgstr "Qual'è il risultato di %d + %d"
+
+#: ../page-booking-form.php:444
+msgid "Processing data"
+msgstr "Elaborazione dati"
+
+#: ../page-booking-form.php:445
+msgid ""
+"Processing data. You will be forwarded to cart shortly. Please stand by..."
+msgstr ""
+"Elaborazione dati. Sarete reindirizzati al vostro carrello in breve tempo. "
+"Si prega di attendere..."
+
+#: ../page-booking-form.php:453 ../page-contact.php:105
+msgid "Name and surname"
+msgstr "Nome e cognome"
+
+#: ../page-booking-form.php:484
+msgid "Departure Transfer details"
+msgstr "Dettagli trasferimento di partenza"
+
+#: ../page-booking-form.php:502 ../page-booking-form.php:530
+msgid "Is private?"
+msgstr "PE' privato?"
+
+#: ../page-booking-form.php:507 ../page-booking-form.php:535
+#: ../page-booking-form.php:561 ../page-booking-form.php:581
+msgid "Extras"
+msgstr "Extra"
+
+#: ../page-booking-form.php:512
+msgid "Return Transfer details"
+msgstr "Dettagli trasferimento di ritorno"
+
+#: ../page-booking-form.php:545
+msgid "Booking summary"
+msgstr "Sommario prenotazione"
+
+#: ../page-booking-form.php:548
+msgid "Departure"
+msgstr "Partenza"
+
+#: ../page-booking-form.php:556 ../page-booking-form.php:576
+msgid "Vehicle"
+msgstr "Veicolo"
+
+#: ../page-booking-form.php:558 ../page-booking-form.php:578
+msgid "People"
+msgstr "Persone"
+
+#: ../page-booking-form.php:588
+msgid "Total"
+msgstr "Totale"
+
+#: ../page-contact.php:96
+msgid "Email sent successfully."
+msgstr "Email inviata con successo."
+
+#: ../page-contact.php:97
+msgid "Thank you for contacting us. We will get back to you as soon as we can."
+msgstr ""
+"Grazie per averci contattato. Risponderemo alle vostre richieste il prima "
+"possibile."
+
+#: ../page-contact.php:100
+msgid ""
+"Errors were encountered when attempting to submit the contact form. Please "
+"correct your errors and submit again."
+msgstr ""
+"Errore durante l'invio del modulo contatti. E' necessario corregge i dati "
+"prima del nuovo invio del modulo."
+
+#: ../page-contact.php:115
+msgid "Message"
+msgstr "Messaggio"
+
+#: ../page-contact.php:131
+msgid "Submit"
+msgstr "Invia"
+
+#: ../page-user-account.php:99
+msgid "General"
+msgstr "Generale"
+
+#: ../page-user-account.php:100
+msgid "Security"
+msgstr "Sicurezza"
+
+#: ../page-user-account.php:101
+msgid "Billing"
+msgstr "Conto"
+
+#: ../page-user-account.php:117
+msgid "Your changes were saved successfully!"
+msgstr "Cambiamenti salvati con successo."
+
+#: ../page-user-account.php:120
+msgid ""
+"Errors were encountered when attempting to submit the form. Please correct "
+"your errors and submit again."
+msgstr ""
+"Errore durante l'invio del form.  E' necessario correggere i dati prima di "
+"un nuovo invio."
+
+#: ../page-user-account.php:124
+msgid "General settings"
+msgstr "Impostazioni generali"
+
+#: ../page-user-account.php:129
+msgid "Username"
+msgstr ""
+
+#: ../page-user-account.php:153
+msgid "Nickname"
+msgstr ""
+
+#: ../page-user-account.php:159
+msgid "Google+"
+msgstr ""
+
+#: ../page-user-account.php:163
+msgid "Twitter"
+msgstr ""
+
+#: ../page-user-account.php:167
+msgid "Facebook"
+msgstr ""
+
+#: ../page-user-account.php:173
+msgid "Bio"
+msgstr ""
+
+#: ../page-user-account.php:178 ../page-user-account.php:205
+#: ../page-user-account.php:273
+msgid "Save Changes"
+msgstr "Salva cambiamenti"
+
+#: ../page-user-account.php:187
+msgid "Security settings"
+msgstr "Impostazioni di sicurezza"
+
+#: ../page-user-account.php:192
+msgid "Current password"
+msgstr "Password attuale"
+
+#: ../page-user-account.php:196
+msgid "New password"
+msgstr "Nuova password"
+
+#: ../page-user-account.php:200
+msgid "Confirm new password"
+msgstr "Conferma nuova password"
+
+#: ../page-user-account.php:213
+msgid "Billing settings"
+msgstr "Impostazioni conto."
+
+#: ../page-user-login.php:105
+msgid "Incorrect username or password. Please try again."
+msgstr "Incorretta usarname o password. Si prega di provare nuovamente."
+
+#: ../page-user-login.php:110 ../page-user-register.php:255
+msgid "Your username"
+msgstr "username"
+
+#: ../page-user-login.php:116
+msgid "Your password"
+msgstr "Password"
+
+#: ../page-user-login.php:123
+msgid "Remember me next time"
+msgstr "Ricordami la prossima volta"
+
+#: ../page-user-login.php:130
+msgid "Login"
+msgstr "Login"
+
+#: ../page-user-login.php:133
+msgid "Forgotten your password?"
+msgstr "Password smarrita?"
+
+#: ../page-user-login.php:133
+msgid "Don't have an account yet?"
+msgstr "Nuovo utente?"
+
+#: ../page-user-login.php:133
+msgid "Sign up"
+msgstr "Registrati"
+
+#: ../page-user-register.php:61
+msgid "Username is required."
+msgstr "Campo username richiesto"
+
+#: ../page-user-register.php:64
+msgid "Sorry, username must be 6 characters or more."
+msgstr "Spiacenti la username deve contenere 6 caratteri o più"
+
+#: ../page-user-register.php:67
+msgid "Sorry, the username you provided is invalid."
+msgstr "Spiacenti, la username proposta non è valida"
+
+#: ../page-user-register.php:70
+msgid "Sorry, that username already exists."
+msgstr "Spiacenti, username già utilizzata"
+
+#: ../page-user-register.php:76
+msgid "Password is required."
+msgstr "La password è richiesta"
+
+#: ../page-user-register.php:79
+msgid "Sorry, password must be 6 characters or more."
+msgstr "Spiacenti la password deve contenere 6 caratteri o più."
+
+#: ../page-user-register.php:82
+msgid "Password and confirm password fields must match."
+msgstr "Password e conferma password devono coincidere"
+
+#: ../page-user-register.php:88
+msgid "You must enter a valid email address."
+msgstr "E' necessario inserire un indirizzo email valido."
+
+#: ../page-user-register.php:91
+msgid "Sorry, that email address is already in use."
+msgstr "Spiacente. L'email inserita è già in uso."
+
+#: ../page-user-register.php:96
+msgid "You must agree to our terms &amp; conditions to sign up."
+msgstr "E' necessario aderire ai termini &amp; condizioni per registrarsi."
+
+#: ../page-user-register.php:107
+msgid "You must input the correct captcha answer."
+msgstr "E' necessario inserire una risposta al Captcha corretta"
+
+#: ../page-user-register.php:110
+msgid "You must input a valid captcha answer."
+msgstr "E' necessario inserire un Captcha code valido"
+
+#: ../page-user-register.php:210
+msgid ""
+"Account was successfully created. Please click the activation link in the "
+"email we just sent you to complete the registration process."
+msgstr ""
+"Account creato con successo. E' necessare cliccare sul link di attivazione "
+"inviato via mailper copletare la registrazione."
+
+#: ../page-user-register.php:217
+#, php-format
+msgid ""
+"User account successfully activated. Please proceed to the <a href=\"%s"
+"\">login</a> page to login in."
+msgstr ""
+"Utente attivato con successo. Procedere con il  <a href=\"%s\">login</a>."
+
+#: ../page-user-register.php:223
+msgid "An error was encountered when attempting to activate your account."
+msgstr "Errore riscontrato durante l'attivazione dell'account"
+
+#: ../page-user-register.php:231
+msgid "Activation link was successfully sent."
+msgstr "Link di attivazione inviato con successo."
+
+#: ../page-user-register.php:236
+msgid ""
+"An error was encountered when attempting to send the activation link. Please "
+"try again later."
+msgstr ""
+"Errore riscontrato durante l'invio del link di attivazione. Si prefa di "
+"riprovare più tardi."
+
+#: ../page-user-register.php:245
+msgid "Errors were encountered when processing your registration request."
+msgstr "Errore durante il processo dir egistrazione."
+
+#: ../page-user-register.php:261
+msgid "Your email address"
+msgstr "La tua email"
+
+#: ../page-user-register.php:279
+#, php-format
+msgid "I agree to the <a href=\"%s\">terms &amp; conditions</a>."
+msgstr "Accetto i  <a href=\"%s\">termini &amp; condizioni</a>."
+
+#: ../page-user-register.php:285
+msgid "Create an account"
+msgstr "Crea un account"
+
+#: ../page-user-resetpassword.php:32
+msgid "You must enter an email address or username to proceed."
+msgstr "E' necessario inserire email o username per proseguire."
+
+#: ../page-user-resetpassword.php:49 ../page-user-resetpassword.php:51
+msgid "You must enter a valid and existing email address or username."
+msgstr ""
+"E' necessario inserire un indirizzo email valido ed esistente o una username."
+
+#: ../page-user-resetpassword.php:134
+msgid "Errors were encountered when processing your reset password request."
+msgstr ""
+"Errore riscontrato durante il processo di richiesta del reset password."
+
+#: ../page-user-resetpassword.php:146
+msgid ""
+"Please confirm the request to reset your password by clicking the link sent "
+"to your email address."
+msgstr ""
+"Confermi la richiesta di reset della password cliccando il link inviato per "
+"email."
+
+#: ../page-user-resetpassword.php:157
+msgid ""
+"Your password was successfully reset. We have sent the new password to your "
+"email address."
+msgstr ""
+"La tua password è stata resettata con successo. Stiamo inviando la nuova "
+"password al vostro indirizzo email."
+
+#: ../page-user-resetpassword.php:161
+msgid ""
+"We encountered an error when attempting to reset your password. Please try "
+"again later."
+msgstr ""
+"Abbiamo riscontrato un errore mentre tentavamo di resenttare la password. Si "
+"prega di riprovare nuovamente."
+
+#: ../page-user-resetpassword.php:167
+msgid "Your username or email address"
+msgstr "La tua username o email"
+
+#: ../page-user-resetpassword.php:174
+msgid "Reset password"
+msgstr "Resetta password"
+
+#: ../sidebar-home-content.php:32
+msgid "Award winning service"
+msgstr "Premioper il servizio"
+
+#: ../sidebar-home-content.php:33
+msgid "Benefits for partners"
+msgstr "Benefici per i partners"
+
+#: ../sidebar-home-content.php:34
+msgid "Free cancellation"
+msgstr "Cancellazione libera"
+
+#: ../sidebar-home-content.php:35
+msgid "Reliable transfers"
+msgstr "Trasferimenti affidabili"
+
+#: ../sidebar-home-content.php:36
+msgid "Fixed rates"
+msgstr "Tasso fisso"
+
+#: ../sidebar-home-content.php:37
+msgid "Quality vehicles"
+msgstr "Veicoli di qualità"
+
+#: ../sidebar-home-content.php:38
+msgid "24H customer support"
+msgstr "Supporto 24h"
+
+#: ../sidebar-home-content.php:39
+msgid "No booking fees"
+msgstr "Nessuna tassa di prenotazione"
+
+#: ../sidebar-home-content.php:40
+msgid "Booking flexibility"
+msgstr "Prenotazione flessibile"
+
+#: ../sidebar-home-content.php:66
+msgid "Our partners"
+msgstr "I nostri partners"
+
+#: ../single-destination.php:143
+msgid "Select your departure location"
+msgstr "Seleziona luogo di partenza"

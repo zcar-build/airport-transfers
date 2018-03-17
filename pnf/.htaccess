@@ -1,0 +1,4 @@
+
+ErrorDocument 404 "/pnf//http-error.cgi"
+ErrorDocument 500 "/pnf//http-error.cgi"
+
