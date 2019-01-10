@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'i4965175_wp6');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'i4965175_wp6');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'E.SZoV1jybX8LGDn0Cj00');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,39 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'zzFxADPINHbbsHtVrasDE5rdNSt4FUotyBvzDY8S6TerHeCAZkE1riSELOnZDcUl');
+define('SECURE_AUTH_KEY',  'PcOuw9eLMAwolvlu9xrbwzF6t19nqYBIQPQeeHIarJUAeupXfOH0qf7oTGJTQ2gc');
+define('LOGGED_IN_KEY',    'S6GtMk9mrT3qjq5u33Jjn7p9YgHbr5XVBZtnm0XIcZF6WgTpupNkUXgFtFi7KlYa');
+define('NONCE_KEY',        'wxAUBA1XOTpUYLy1ke38WgIqVlTP5qOdUMcqkskDyVnENje0KDG7gT40awofSRRE');
+define('AUTH_SALT',        'JCjNNu3OHZPRVHyMHYIt72BtXFVa6oXSBpDFzB8ptVbbZ4cFXjOGk5MuWhxUyWPv');
+define('SECURE_AUTH_SALT', 'U1T29CY0smQIGjqbfQ3MoCH8VxfNQcZ3NV8sXkuKkWz1s7dZibo8nJ0De7O0s9uW');
+define('LOGGED_IN_SALT',   'W3NK6IIVw5CpUiB9oYreqQESZusOKQSL1ilfklIdCPsX5IZIc4GEpxhCRRrSbXK9');
+define('NONCE_SALT',       'tinvkc8TCDQYET1IFyvvQDZQZ2GPhwtcLt6pPCwPefTpmPMg6LoAE3dBM4HGcfgR');
+
+/**
+ * Other customizations.
+ */
+define('FS_METHOD','direct');define('FS_CHMOD_DIR',0755);define('FS_CHMOD_FILE',0644);
+define('WP_TEMP_DIR',dirname(__FILE__).'/wp-content/uploads');
+
+/**
+ * Turn off automatic updates since these are managed upstream.
+ */
+define('AUTOMATIC_UPDATER_DISABLED', true);
+
+/**
+ * Multi-site
+ *
+ */
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+$base = '/wp/';
+define('DOMAIN_CURRENT_SITE', 'chicagobusrentals.com');
+define('PATH_CURRENT_SITE', '/wp/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+define('WP_ALLOW_MULTISITE', true);
+
 
 /**#@-*/
 
